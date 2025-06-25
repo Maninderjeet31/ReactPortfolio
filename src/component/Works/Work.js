@@ -1,5 +1,5 @@
 import { TabView, TabPanel } from 'primereact/tabview';
-import { Button, Col, Container, Row } from 'reactstrap';
+import { Col, Container, Row } from 'reactstrap';
 import { useEffect } from 'react';
 import Responsibility from './Responsibility'
 
@@ -31,7 +31,7 @@ function Work({workExp}){
                                         <Col xs="12" md="5">
                                             <img
                                                 alt="Work Picture"
-                                                src="Work.png"
+                                                src={`${process.env.PUBLIC_URL}/Work.png`}
                                                 className='img-fluid rounded mx-auto d-block mt-2 m-2 text-center py-5 px-3'
                                                 style={{
                                                     borderRadius: "50%",

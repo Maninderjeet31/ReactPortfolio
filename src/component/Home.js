@@ -8,7 +8,7 @@ function Home(){
                     <Col className='d-flex align-items-center justify-content-center' xs="12" md="5">
                         <img
                             alt="Profile"
-                            src="profilePicture.png"
+                            src={`${process.env.PUBLIC_URL}/profilePicture.png`}
                             className='img-fluid rounded mx-auto d-block'
                             style={{
                                 borderRadius: "50%",

@@ -27,7 +27,7 @@ function Header(){
                 <NavbarBrand href="/">
                     <img
                             alt="Profile Picture"
-                            src="MS_logo.png"
+                            src={`${process.env.PUBLIC_URL}/MS_logo.png`}
                             className='img-fluid rounded mx-auto d-block'
                             style={{
                                 borderRadius: "50%",

@@ -44,7 +44,7 @@ function Skill({skillSet}){
                                             <Col className='d-flex align-items-center justify-content-center' xs="12" md="4">
                                                 <img
                                                     alt="Profile Picture"
-                                                    src={skill.logo}
+                                                    src={`${process.env.PUBLIC_URL}/${skill.logo}`}
                                                     className='img-fluid rounded mx-auto d-block'
                                                     style={{ 
                                                         width: '100%',

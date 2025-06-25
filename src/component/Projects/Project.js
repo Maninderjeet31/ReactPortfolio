@@ -7,7 +7,8 @@ function Project({projects}){
             <div style={{ border: 'none' }} className="border-round m-2 text-center py-5 px-3">
                 <div className="mb-3">
                     {/* IMAGE */}
-                    <img src='dev_coding.png' alt={data.title} className="w-6 shadow-2" style={{ width: '200px', height: '200px', objectFit: 'contain' }} />
+                    <img src={`${process.env.PUBLIC_URL}/dev_coding.png`}
+                         alt={data.title} className="w-6 shadow-2" style={{ width: '200px', height: '200px', objectFit: 'contain' }} />
                 </div>
                 <div>
                     <div className="mb-3">

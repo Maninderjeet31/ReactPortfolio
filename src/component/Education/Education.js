@@ -30,7 +30,7 @@ function Education({ education }){
                                         <Col xs="12" md="5">
                                             <img
                                                 alt="Education Picture"
-                                                src={edu.logo}
+                                                src={`${process.env.PUBLIC_URL}/${edu.logo}`}
                                                 className='img-fluid justify-content-center rounded mx-auto d-block mt-2 m-2 text-center py-5 px-3'
                                                 style={{ 
                                                     width: '100%',
