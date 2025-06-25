@@ -25,7 +25,7 @@ function AllSkills(){
                         }}
                     />
                 </Col> */}
-                <Col xs="12" md="9" className='text-start'>
+                <Col xs="12" md="12" className='text-start'>
                     <div className="pt-3">
                         <Skill skillSet={skillSet} />
                     </div>

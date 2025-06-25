@@ -48,7 +48,7 @@ function Skill({skillSet}){
                                                     className='img-fluid rounded mx-auto d-block'
                                                     style={{ 
                                                         width: '100%',
-                                                        maxWidth: '300px', 
+                                                        maxWidth: '160px', 
                                                         height: 'auto',
                                                         maxHeight: '300px', 
                                                         objectFit: 'contain',
@@ -58,7 +58,7 @@ function Skill({skillSet}){
                                             </Col>
                                             <Col xs="12" md="7" className='text-start text-secondary'>
                                                 <dl className="mb-3">
-                                                    <dt className="col-sm-3 pb-3 mt-3 text-info"> {skill.title} </dt>
+                                                    <dt className="col-sm-9 pb-3 mt-3 mb-3 text-info"> {skill.title} </dt>
                                                     <dd className="col-sm-9 text-secondary">{skill.description}</dd>
                                                 </dl>
                                             </Col>
