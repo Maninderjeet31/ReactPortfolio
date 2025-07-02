@@ -24,7 +24,7 @@ function Header(){
     return(
         <div>
             <Navbar  expand="md" fixed="top">
-                <NavbarBrand href="/">
+                <NavbarBrand to="/" tag={RouterNavLink}>
                     <img
                             alt="Profile Picture"
                             src={`${process.env.PUBLIC_URL}/MS_logo.png`}
