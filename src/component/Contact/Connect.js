@@ -43,7 +43,7 @@ function Connect(){
                                 <a
                                     id="GitHub"
                                     href="https://github.com/yourusername"
-                                    className="text-info text-decoration-none fs-5 fw-light"
+                                    className="text-secondary text-decoration-none fs-5 fw-medium"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     >
@@ -72,7 +72,7 @@ function Connect(){
                                 <a
                                     id="LinkedIn"
                                     href="https://linkedin.com/in/maninderjeet-singh-3110ca"
-                                    className="text-info text-decoration-none fs-5 fw-light"
+                                    className="text-secondary text-decoration-none fs-5 fw-medium"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     >
@@ -98,15 +98,14 @@ function Connect(){
                                 />
                             </Label>
                             <Col sm={10} style={{ alignContent: 'center' }}>
-                                <a
+                                <h5
                                     id="Email"
-                                    href="mani.pabla31@gmail.com"
-                                    className="text-info text-decoration-none fs-5 fw-light"
+                                    className="text-secondary text-decoration-none fs-5 fw-medium"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     >
                                     Maninderjeet Singh : Email
-                                </a>
+                                </h5>
                             </Col>
                         </FormGroup>
 
@@ -130,7 +129,7 @@ function Connect(){
                                 <h5
                                     style={{ alignContent: 'center' }}
                                     id="Location"
-                                    className="text-info text-decoration-none fs-5 fw-light"
+                                    className="text-secondary text-decoration-none fs-5 fw-medium"
                                     >
                                     Calgary, Alberta, Canada
                                 </h5>
