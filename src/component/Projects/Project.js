@@ -23,7 +23,7 @@ function Project({projects}){
   }
 
   return (
-    <div className="card flex justify-content-center">
+    <div className=" flex justify-content-center">
             <Carousel value={projects} 
                     numVisible={1} 
                     numScroll={1} 

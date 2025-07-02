@@ -11,7 +11,11 @@ function AllProjects(){
     }, []);
 
     return(
-        <div className="pt-5">
+        <div className="pt-2">
+            <h1 className="display-3 fw-bolder mt-5 text-secondary">Hands-On Experience</h1>
+            <p className=" text-info text-wrap fw-bold mt-4 fs-6">
+                INDEPENDENT PROJECTS
+            </p>
             <Project projects={projects} />
         </div>
     )

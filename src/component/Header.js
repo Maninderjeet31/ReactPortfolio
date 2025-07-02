@@ -41,6 +41,9 @@ function Header(){
                         <NavLink to="/" tag={RouterNavLink}>Home</NavLink>
                     </NavItem>
                     <NavItem>
+                        <NavLink to="/about" tag={RouterNavLink}>About</NavLink>
+                    </NavItem>
+                    <NavItem>
                         <NavLink to="/skill" tag={RouterNavLink}>Skills</NavLink>
                     </NavItem>
                     <UncontrolledDropdown nav inNavbar>

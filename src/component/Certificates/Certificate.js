@@ -6,7 +6,7 @@ function Certificate({certs}){
     return (
             <div style={{ border: 'none' }} className="border-round m-2 text-center py-5 px-3">
                 <div className="mb-3">
-                    <img src={`${process.env.PUBLIC_URL}/${data.logo}`} alt={data.title} className="w-6 shadow-2" style={{ width: '200px', height: '200px', objectFit: 'contain' }}  />
+                    <img src={`${process.env.PUBLIC_URL}/${data.logo}`} alt={data.title} className="w-6 shadow-2" style={{ width: '150px', height: '150px', objectFit: 'contain' }}  />
                 </div>
                 <div>
                     <h4 className="mb-1">{data.title}</h4>
@@ -21,7 +21,7 @@ function Certificate({certs}){
   }
 
   return (
-    <div className="card flex justify-content-center">
+    <div className="flex justify-content-center">
             <Carousel value={certs} 
                     numVisible={1} 
                     numScroll={1} 
